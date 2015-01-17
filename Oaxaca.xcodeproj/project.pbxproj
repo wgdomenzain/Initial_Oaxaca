@@ -16,6 +16,9 @@
 		D176468A1A6ABAF90074999B /* OaxacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17646891A6ABAF90074999B /* OaxacaTests.m */; };
 		D17646961A6AD3420074999B /* bart01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D17646941A6AD3420074999B /* bart01.gif */; };
 		D17646971A6AD3420074999B /* lisa01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D17646951A6AD3420074999B /* lisa01.gif */; };
+		D176469B1A6AE0520074999B /* homer01.png in Resources */ = {isa = PBXBuildFile; fileRef = D17646981A6AE0520074999B /* homer01.png */; };
+		D176469C1A6AE0520074999B /* maggie01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D17646991A6AE0520074999B /* maggie01.gif */; };
+		D176469D1A6AE0520074999B /* marge01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D176469A1A6AE0520074999B /* marge01.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D17646891A6ABAF90074999B /* OaxacaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OaxacaTests.m; sourceTree = "<group>"; };
 		D17646941A6AD3420074999B /* bart01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bart01.gif; sourceTree = "<group>"; };
 		D17646951A6AD3420074999B /* lisa01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lisa01.gif; sourceTree = "<group>"; };
+		D17646981A6AE0520074999B /* homer01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer01.png; sourceTree = "<group>"; };
+		D17646991A6AE0520074999B /* maggie01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = maggie01.gif; sourceTree = "<group>"; };
+		D176469A1A6AE0520074999B /* marge01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = marge01.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		D17646931A6AD3190074999B /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				D17646981A6AE0520074999B /* homer01.png */,
+				D17646991A6AE0520074999B /* maggie01.gif */,
+				D176469A1A6AE0520074999B /* marge01.gif */,
 				D17646941A6AD3420074999B /* bart01.gif */,
 				D17646951A6AD3420074999B /* lisa01.gif */,
 			);
@@ -217,6 +226,9 @@
 				D17646961A6AD3420074999B /* bart01.gif in Resources */,
 				D17646791A6ABAF90074999B /* Main.storyboard in Resources */,
 				D176467E1A6ABAF90074999B /* LaunchScreen.xib in Resources */,
+				D176469D1A6AE0520074999B /* marge01.gif in Resources */,
+				D176469B1A6AE0520074999B /* homer01.png in Resources */,
+				D176469C1A6AE0520074999B /* maggie01.gif in Resources */,
 				D176467B1A6ABAF90074999B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
