@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface Welcome : UIViewController
+- (IBAction)btnLoginPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *lblMsg;
+@property (strong, nonatomic) IBOutlet UIImageView *imgIntro;
+- (IBAction)btnRegisterPressed:(id)sender;
 
 
 @end

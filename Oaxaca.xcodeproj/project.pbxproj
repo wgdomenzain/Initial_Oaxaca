@@ -14,6 +14,8 @@
 		D176467B1A6ABAF90074999B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D176467A1A6ABAF90074999B /* Images.xcassets */; };
 		D176467E1A6ABAF90074999B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D176467C1A6ABAF90074999B /* LaunchScreen.xib */; };
 		D176468A1A6ABAF90074999B /* OaxacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17646891A6ABAF90074999B /* OaxacaTests.m */; };
+		D17646961A6AD3420074999B /* bart01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D17646941A6AD3420074999B /* bart01.gif */; };
+		D17646971A6AD3420074999B /* lisa01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D17646951A6AD3420074999B /* lisa01.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		D17646831A6ABAF90074999B /* OaxacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OaxacaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17646881A6ABAF90074999B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17646891A6ABAF90074999B /* OaxacaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OaxacaTests.m; sourceTree = "<group>"; };
+		D17646941A6AD3420074999B /* bart01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bart01.gif; sourceTree = "<group>"; };
+		D17646951A6AD3420074999B /* lisa01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lisa01.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				D17646721A6ABAF90074999B /* AppDelegate.m */,
 				D17646741A6ABAF90074999B /* Welcome.h */,
 				D17646751A6ABAF90074999B /* Welcome.m */,
+				D17646931A6AD3190074999B /* imgs */,
 				D17646771A6ABAF90074999B /* Main.storyboard */,
 				D176467A1A6ABAF90074999B /* Images.xcassets */,
 				D176467C1A6ABAF90074999B /* LaunchScreen.xib */,
@@ -117,6 +122,15 @@
 				D17646881A6ABAF90074999B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17646931A6AD3190074999B /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D17646941A6AD3420074999B /* bart01.gif */,
+				D17646951A6AD3420074999B /* lisa01.gif */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +213,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17646971A6AD3420074999B /* lisa01.gif in Resources */,
+				D17646961A6AD3420074999B /* bart01.gif in Resources */,
 				D17646791A6ABAF90074999B /* Main.storyboard in Resources */,
 				D176467E1A6ABAF90074999B /* LaunchScreen.xib in Resources */,
 				D176467B1A6ABAF90074999B /* Images.xcassets in Resources */,
@@ -344,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oaxaca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Oaxaca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

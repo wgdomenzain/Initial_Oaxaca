@@ -25,4 +25,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnLoginPressed:(id)sender
+{
+    self.lblMsg.text = @"Lisa Simpson";
+    //self.view.backgroundColor = [UIColor orangeColor];
+    self.imgIntro.image = [UIImage imageNamed:@"lisa01.gif"];
+}
+- (IBAction)btnRegisterPressed:(id)sender
+{
+    self.lblMsg.text = @"Bart Simpson";
+    self.imgIntro.image = [UIImage imageNamed:@"bart01.gif"];
+}
 @end
