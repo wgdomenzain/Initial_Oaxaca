@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Smartplace. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Welcome.h"
 
-@interface ViewController ()
+@interface Welcome ()
 
 @end
 
-@implementation ViewController
+@implementation Welcome
 
 - (void)viewDidLoad {
     [super viewDidLoad];
