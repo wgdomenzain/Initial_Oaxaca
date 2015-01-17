@@ -58,4 +58,10 @@ int             iImage = 0;
     //self.lblMsg.text = @"Lisa Simpson";
     self.imgIntro.image = [UIImage imageNamed:imagesArray[iImage]];
 }
+
+- (IBAction)btnNextPressed:(id)sender
+{
+    [self performSegueWithIdentifier:@"SegueToHome" sender:self];
+}
+//
 @end

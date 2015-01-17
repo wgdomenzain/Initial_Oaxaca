@@ -55,10 +55,28 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="vZy-bN-CS2" userLabel="btnNext">
+                                <rect key="frame" x="60" y="303" width="200" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnNextPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0JM-HO-AUR"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bart01.gif" id="Pl4-Ar-zmg" userLabel="imgIntro">
                                 <rect key="frame" x="40" y="61" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siguiente" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QZa-y8-4Se" userLabel="lblNext">
+                                <rect key="frame" x="60" y="303" width="200" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41568627953529358" green="0.78823530673980713" blue="0.047058824449777603" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -66,11 +84,27 @@
                     <connections>
                         <outlet property="imgIntro" destination="Pl4-Ar-zmg" id="fd8-cK-tjh"/>
                         <outlet property="lblMsg" destination="mKQ-Hb-Oov" id="KKx-ES-twP"/>
+                        <segue destination="4VX-bw-bws" kind="modal" identifier="SegueToHome" id="je5-Cd-SXX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="206"/>
+            <point key="canvasLocation" x="-10" y="206"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="6HL-eX-CXi">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="4VX-bw-bws" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W8n-Zm-iEJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1887546444" green="0.66520400469999996" blue="0.059594231390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3xQ-77-Mey"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sT7-93-lXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="206"/>
         </scene>
     </scenes>
     <resources>
